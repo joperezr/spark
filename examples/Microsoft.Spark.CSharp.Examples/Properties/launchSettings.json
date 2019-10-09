@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Microsoft.Spark.CSharp.Examples": {
+      "commandName": "Project",
+      "commandLineArgs": "Sql.BasicTelemetry \"C:\\Spark.NET\\telemetry.json\"",
+      "environmentVariables": {
+        "DOTNET_WORKER_DIR": "F:\\scratch\\spark\\artifacts\\bin\\Microsoft.Spark.Worker\\Debug\\netcoreapp2.1\\win-x64\\publish\\"
+      }
+    }
+  }
+}
